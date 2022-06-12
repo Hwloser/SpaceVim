@@ -138,7 +138,7 @@ fetch_repo () {
         success "Successfully update SpaceVim"
     else
         info "Trying to clone SpaceVim"
-        git clone https://github.com/SpaceVim/SpaceVim.git "$HOME/.SpaceVim"
+        git clone https://github.com/Hwloser/SpaceVim.git "$HOME/.SpaceVim"
         if [ $? -eq 0 ]; then
             success "Successfully clone SpaceVim"
         else
