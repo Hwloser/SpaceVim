@@ -6,4 +6,5 @@
 " License: GPLv3
 "=============================================================================
 
+" 加载当前目录下的main.vim文件
 execute 'source' fnamemodify(expand('<sfile>'), ':h').'/main.vim'
